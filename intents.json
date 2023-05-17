@@ -1,0 +1,103 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hello",
+          "Hi"
+        ],
+        "responses": [
+          "Hello, thanks for visiting",
+          "Hi there, what can I do for you?"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later"],
+        "responses": [
+          "See you later, thanks for visiting",
+          "Have a nice day"
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+        "responses": ["Happy to help!", "Any time!", "My pleasure"]
+      },
+      {
+        "tag": "gender",
+        "patterns": [
+          "Choose Your gender"
+        ],
+        "responses": [
+          "1.Male \n2.Female \n3.Others"
+        ]
+      },
+      {
+        "tag": "Gym Equipment",
+        "patterns": [
+          "What are some exercises I can do with a [specific gym equipment]?"
+        ],
+        "responses": [
+          "With [specific gym equipment], you can perform a variety of exercises. For example, with a barbell, you can do exercises like squats, deadlifts, and bench presses. Let me know if you'd like more information about any specific exercises or equipment."
+        ]
+      },
+      {
+        "tag": "Exercise Techniques",
+        "patterns": [
+          "Can you explain the proper technique for exercise?"
+        ],
+        "responses": [
+          "Certainly! To perform [exercise] with proper technique, start by [explaining the key steps and form cues]. It's important to maintain proper form throughout the exercise to maximize its effectiveness and minimize the risk of injury. Would you like more guidance or tips on [exercise]?"
+        ]
+      },
+      {
+        "tag": " Workout Routines",
+        "patterns": [
+          "Can you suggest a workout routine for [specific goal]?"
+        ],
+        "responses": [
+          "Absolutely! To help you achieve your [specific goal], it's important to have a well-rounded workout routine. This may include a combination of cardiovascular exercises, strength training, and flexibility exercises. I can provide you with a sample workout routine tailored to your [specific goal]."
+        ]
+      },
+      {
+        "tag": "Fitness Goals",
+        "patterns": [
+          "What exercises can help me lose belly fat?"
+        ],
+        "responses": [
+          "Incorporate exercises like high-intensity interval training (HIIT), compound movements, and core-strengthening exercises. Additionally, focus on maintaining a calorie deficit by consuming a balanced diet and managing portion sizes."
+        ]
+      },
+      {
+        "tag": "Nutritional Advice",
+        "patterns": [
+          "What should I eat before and after a workout?"
+        ],
+        "responses": [
+          "Before a workout, it's ideal to have a balanced meal or snack that includes carbohydrates for energy and a moderate amount of protein. Consider options like a banana with nut butter, Greek yogurt with fruit, or a chicken wrap."
+        ]
+      },
+      {
+        "tag": "Fitness Motivation",
+        "patterns": [
+          " How can I stay motivated to exercise regularly?"
+        ],
+        "responses": [
+          "Set specific and achievable goals, track your progress, and celebrate milestones along the way. Find activities you genuinely enjoy and consider working out with a friend or joining group fitness classes for added accountability and social support."
+        ]
+      },
+      {
+        "tag": "funny",
+        "patterns": [
+          "Tell me a joke!",
+          "Tell me something funny!",
+          "Do you know a joke?"
+        ],
+        "responses": [
+          "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+          "What did the buffalo say when his son left for college? Bison."
+        ]
+      }
+    ]
+  }
